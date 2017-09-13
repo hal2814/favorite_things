@@ -6,7 +6,7 @@ require('pry')
 
 get('/') do
   @list = Item.all()
-  erb(:list)
+  erb(:input)
 end
 
 post('/') do
